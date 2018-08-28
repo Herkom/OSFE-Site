@@ -1,0 +1,129 @@
+﻿<?Infragistics.Models format="xaml" version="30" appVersion="10.2.0.98"?>
+<Page xmlns="http://prototypes.infragistics.com/"
+                                                                                 Id="27a92483-1117-4167-846f-b9fc0392cf2e">
+    <Page.Content>
+        <Content Width="1024" Height="768" Id="caf7e912-9d66-461e-916a-21b062c9e8e8">
+            <Content.Layers>
+                <Layer Id="c90f3e49-fc91-42e6-ae0e-3692b0a98516" Panel.Layout="Stretch" />
+                <AnnotationsLayer Id="d85081a8-6530-4c98-9fe3-807e4ea8f73a" Panel.Layout="Stretch" />
+            </Content.Layers>
+            <Content.Viewbox>
+                <Viewbox Size="1024,768" Id="995b31e0-4072-4e94-bd32-3bb52f0b0293" />
+            </Content.Viewbox>
+            <Content.GuidesInfo>
+                <GuidesInfo Id="46a626e4-935c-473c-967b-b0bc2de16001" />
+            </Content.GuidesInfo>
+        </Content>
+    </Page.Content>
+    <Page.Device>
+        <DeviceInfo Id="Browser" Orientation="None" />
+    </Page.Device>
+    <Page.Scenes>
+        <Scene Title="Start" Created="08/27/2018 13:27:59" Id="545f8536-c57f-4b53-b850-fbf939a5f254">
+            <Scene.KeyFrames>
+                <KeyFrame Id="f89b7a21-b90b-48be-9f1b-1e01ca3e2f34">
+                    <KeyFrame.Operations>
+                        <Add Property="Panel.Children" Target="c90f3e49-fc91-42e6-ae0e-3692b0a98516">
+                            <Add.Item>
+                                <Group GroupName="Group" Id="ac6ba73b-7ed9-4996-a5c9-270eb75dc6df" Panel.Bounds="12,17,0*,0*">
+                                    <Group.Children>
+                                        <Rectangle Color="#00FFFFFF" Background="#FF717171" Id="c40baab4-fa9c-4d71-a16c-6987ea674388" Panel.Bounds="-12,-17,60{5,2147483647},768{5,2147483647}" />
+                                        <Ellipse Color="#00FFFFFF" Background="#FFE2E2E2" Id="305a6a69-fe23-45cb-9d13-ed7dee59d437" Panel.Bounds="0,48,35{5,2147483647},36{5,2147483647}" />
+                                        <Ellipse Color="#00FFFFFF" Background="#FFE2E2E2" Id="72929a0e-4da1-40b8-a49d-251141daab23" Panel.Bounds="0,97,35{5,2147483647},36{5,2147483647}" />
+                                        <Ellipse Color="#00FFFFFF" Background="#FFE2E2E2" Id="f8639669-6432-45a8-9bff-4674dddad510" Panel.Bounds="0,146,35{5,2147483647},36{5,2147483647}" />
+                                        <Rectangle CornerRadius="4" Color="#00FFFFFF" Background="#FFE2E2E2" Id="f00a4fee-08e7-49fd-8f52-0c1e66a70683" Panel.Bounds="0,0,35{5,2147483647},5{5,2147483647}" />
+                                        <Rectangle CornerRadius="4" Color="#00FFFFFF" Background="#FFE2E2E2" Id="897ff123-2472-44a6-a0f6-9f5b82c87d02" Panel.Bounds="0,12,35{5,2147483647},5{5,2147483647}" />
+                                        <Rectangle CornerRadius="4" Color="#00FFFFFF" Background="#FFE2E2E2" Id="e7c6fc22-523a-40e7-9c89-69da2d35399f" Panel.Bounds="0,24,35{5,2147483647},5{5,2147483647}" />
+                                    </Group.Children>
+                                    <Group.Click>
+                                        <CommandSwitchTo SceneId="e245950e-db75-4ec6-8e53-df6adb8da33d" AutoRevertEvent="Control.Click" Created="08/27/2018 13:32:38" Id="d3c9f757-e0f0-4259-894b-87c59c2ac28f" />
+                                    </Group.Click>
+                                </Group>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="GuidesInfo.Guides" Target="46a626e4-935c-473c-967b-b0bc2de16001">
+                            <Add.Item>
+                                <Guide Position="-50" Id="24da6244-2cab-459f-ab0a-e4a9cf4996ba" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="c90f3e49-fc91-42e6-ae0e-3692b0a98516">
+                            <Add.Item>
+                                <Image SourcePath="assets/logoOSFE_tamañoPequeño-30.png" Id="00f31f27-fcf0-4905-b5ed-2956389a38bd" Panel.Bounds="859,23,142{5,2147483647},39{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="c90f3e49-fc91-42e6-ae0e-3692b0a98516">
+                            <Add.Item>
+                                <Image SourcePath="assets/PastedImage(1).jpg" Id="72762cbb-5bcd-4e5e-8955-2656d74d85fe" Panel.Bounds="117,422,840{5,2147483647},172{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Before="5d2725df-a7f5-40d6-9649-d6e90a5f8f9c" Target="c90f3e49-fc91-42e6-ae0e-3692b0a98516">
+                            <Add.Item>
+                                <Group GroupName="Group" Id="54e7aaac-111f-4a4c-bce3-63b6d27b13d8" Panel.Bounds="259,65,0*,0*">
+                                    <Group.Children>
+                                        <Rectangle Background="#FF1C1C1C" Id="44a8a8b2-3359-46ba-8ef9-fbb6af6b298d" Panel.Bounds="-75,0,255{5,2147483647},44{5,2147483647}" />
+                                        <Rectangle Background="#FF1C1C1C" Id="5d2725df-a7f5-40d6-9649-d6e90a5f8f9c" Panel.Bounds="-75,53,300{5,2147483647},28{5,2147483647}" />
+                                        <Rectangle Background="#FF1C1C1C" Id="b536f551-7cdf-413c-9e31-7fd1cea470f8" Panel.Bounds="-75,111,300{5,2147483647},9{5,2147483647}" />
+                                        <Rectangle Background="#FF1C1C1C" Id="3abb7056-ed82-4fea-9d24-5c3642ce6da5" Panel.Bounds="-75,129,300{5,2147483647},9{5,2147483647}" />
+                                        <Rectangle Background="#FF1C1C1C" Id="2a24dbbe-e39b-4697-9e1d-549cd38d7c3a" Panel.Bounds="-75,147,152{5,2147483647},9{5,2147483647}" />
+                                        <Image SourcePath="assets/PastedImage.jpg" Crop="Size:[299,919],Rect:[0,0,299,325]" Opacity="0.4" Id="de68c100-eb36-410c-ad2c-419f010a25a4" Panel.Bounds="232,-21,348{5,2147483647},378{5,2147483647}" />
+                                    </Group.Children>
+                                </Group>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Before="54e7aaac-111f-4a4c-bce3-63b6d27b13d8" Target="c90f3e49-fc91-42e6-ae0e-3692b0a98516">
+                            <Add.Item>
+                                <Rectangle Color="#00FFFFFF" Background="#FFE2E2E2" Id="d4e67a3e-21ee-4a86-81a5-581aa4ecc94e" Panel.Bounds="60,0,964{5,2147483647},422{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                    </KeyFrame.Operations>
+                </KeyFrame>
+            </Scene.KeyFrames>
+        </Scene>
+        <Scene Title="Tapped/Clicked Group" StateGroup="545f8536-c57f-4b53-b850-fbf939a5f254" ParentScene="545f8536-c57f-4b53-b850-fbf939a5f254" Created="08/27/2018 13:32:38" Id="e245950e-db75-4ec6-8e53-df6adb8da33d">
+            <Scene.KeyFrames>
+                <KeyFrame Duration="400" Id="b766dffc-2788-4849-b087-210a33c9d305">
+                    <KeyFrame.Operations>
+                        <Add Property="Panel.Children" Before="eb2456f6-b53b-4147-a20f-f291186683f5" Effect="Fade" Target="c90f3e49-fc91-42e6-ae0e-3692b0a98516" Duration="400">
+                            <Add.Item>
+                                <Group GroupName="Group" Id="19f2b041-a40f-468a-a3e5-9a6217fa3b6d" Panel.Bounds="60,0,0*,0*">
+                                    <Group.Children>
+                                        <Rectangle Background="#FF275B9D" Id="37437fb7-df04-4d8b-bedb-c1da47f35fcb" Panel.Bounds="0,0,278{5,2147483647},230{5,2147483647}" />
+                                        <Rectangle Color="#00FFFFFF" Background="#FF81ABE0" Id="eb2456f6-b53b-4147-a20f-f291186683f5" Panel.Bounds="18,29,120{5,2147483647},8{5,2147483647}" />
+                                        <Rectangle Color="#00FFFFFF" Background="#FF81ABE0" Id="f560e6b1-3e70-4f88-80df-35e010b9837c" Panel.Bounds="18,42,120{5,2147483647},8{5,2147483647}" />
+                                        <Rectangle Color="#00FFFFFF" Background="#FF81ABE0" Id="448c697a-cbd2-420d-b9ab-d5b0225478ee" Panel.Bounds="18,67,104{5,2147483647},8{5,2147483647}" />
+                                        <Rectangle Color="#00FFFFFF" Background="#FF81ABE0" Id="8fddca18-07fd-4e46-9939-f7b8e242fad1" Panel.Bounds="18,91,89{5,2147483647},8{5,2147483647}" />
+                                        <Rectangle Color="#00FFFFFF" Background="#FF81ABE0" Id="13844a01-0fa4-4cc3-b547-db29d224fc0f" Panel.Bounds="18,115,120{5,2147483647},8{5,2147483647}" />
+                                        <Rectangle Color="#00FFFFFF" Background="#FF81ABE0" Id="9d05c047-7f1f-467f-ac1a-4a152b32b343" Panel.Bounds="18,139,89{5,2147483647},8{5,2147483647}" />
+                                        <Rectangle Color="#00FFFFFF" Background="#FF81ABE0" Id="63f7c343-1a40-409e-a8ca-62ac48fda46c" Panel.Bounds="18,165,57{5,2147483647},8{5,2147483647}" />
+                                        <Line Thickness="1" RotationAngle="90" Color="#FFFFFFFF" Background="#00FFFFFF" Id="e8bdac1b-bc15-40ab-8cc4-7da8979ede42" Panel.Bounds="161,38,3,154">
+                                            <Line.StartPoint>
+                                                <Point X="60" Y="-94" Id="9a4704cc-bd80-4820-b3b4-6b18f9fd5686" />
+                                            </Line.StartPoint>
+                                            <Line.Segments>
+                                                <Segment Id="ed55cf37-b58e-43c8-8a5c-196393bf9acb">
+                                                    <Segment.EndPoint>
+                                                        <Point X="60" Y="60" Id="3dfc7b76-2701-48d9-9382-4e7c0fd94874" />
+                                                    </Segment.EndPoint>
+                                                </Segment>
+                                            </Line.Segments>
+                                        </Line>
+                                        <Rectangle Color="#00FFFFFF" Background="#FFFFFFFF" Id="049e0e42-1791-4f1c-ba89-1dd142eff351" Panel.Bounds="179,42,70{5,2147483647},3{5,2147483647}" />
+                                        <Rectangle Color="#00FFFFFF" Background="#FFFFFFFF" Id="d31c89e6-73b3-4b33-b797-8b7bb7e4a8b8" Panel.Bounds="179,57,54{5,2147483647},5{5,2147483647}" />
+                                        <Rectangle Color="#00FFFFFF" Background="#FFFFFFFF" Id="1bf4f35d-0040-4e73-a9f1-385335a58b43" Panel.Bounds="179,72,35{5,2147483647},5{5,2147483647}" />
+                                        <Rectangle Color="#00FFFFFF" Background="#FFFFFFFF" Id="b5d80da7-5850-4a5a-83b0-1da5e9799c43" Panel.Bounds="179,87,54{5,2147483647},5{5,2147483647}" />
+                                        <Rectangle Color="#00FFFFFF" Background="#FF6397C4" Id="7d4ecbae-0d67-499b-bc66-0756a3aab2fe" Panel.Bounds="179,124,84{5,2147483647},23{5,2147483647}" />
+                                        <Ellipse Thickness="2" Color="#FFB1CBE2" Background="#00FFFFFF" Id="544530d6-cbaa-4fca-9ab5-da9901cfcb53" Panel.Bounds="187,129,13{5,2147483647},13{5,2147483647}" />
+                                    </Group.Children>
+                                </Group>
+                            </Add.Item>
+                        </Add>
+                        <Move To="-12,-17" At="ac6ba73b-7ed9-4996-a5c9-270eb75dc6df" Before="f00a4fee-08e7-49fd-8f52-0c1e66a70683" Target="c40baab4-fa9c-4d71-a16c-6987ea674388" />
+                        <Move To="0,48" At="ac6ba73b-7ed9-4996-a5c9-270eb75dc6df" Before="f00a4fee-08e7-49fd-8f52-0c1e66a70683" Target="305a6a69-fe23-45cb-9d13-ed7dee59d437" />
+                        <Move To="0,97" At="ac6ba73b-7ed9-4996-a5c9-270eb75dc6df" Before="f00a4fee-08e7-49fd-8f52-0c1e66a70683" Target="72929a0e-4da1-40b8-a49d-251141daab23" />
+                        <Move To="0,146" At="ac6ba73b-7ed9-4996-a5c9-270eb75dc6df" Before="f00a4fee-08e7-49fd-8f52-0c1e66a70683" Target="f8639669-6432-45a8-9bff-4674dddad510" />
+                    </KeyFrame.Operations>
+                </KeyFrame>
+            </Scene.KeyFrames>
+        </Scene>
+    </Page.Scenes>
+</Page>
