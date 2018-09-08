@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en" style="margin:0; padding: 0;">
+<head>
+	<meta charset="UTF-8">
+	<title>Prototipo</title>
+	<style type="text/css">
+		
+		.boton{
+			background-color: #c6c6c6;
+			width: 1.5vw;
+			height: 1.5vw;
+			border-radius: 50%;
+			margin:  1vh 0;
+		}
+	</style>
+</head>
+<body style="margin:0; padding: 0; height:100%; width: 100%">
+	<header style="margin:0; padding: 0; display: flex; ">
+		<section>
+			<img src="" alt="">
+		</section>
+		<section>
+			
+		</section>
+		<div style="background-color: #2d2d2d; height: 100vh; left: 0px; position: fixed; width:3vw; margin:0; padding: 0; z-index:3; display: flex; flex-direction: column; align-content: center; align-items: center;">
+
+			<section style="margin: 2vh 0 1vh 0; class="burguer" id="burguer">
+				<article style="background-color: #c6c6c6; width: 1.5vw; height: 0.4vh; margin: 0.4vh 0;"></article>
+				<article style="background-color: #c6c6c6; width: 1.5vw; height: 0.4vh; margin: 0.4vh 0"></article>
+				<article style="background-color: #c6c6c6; width: 1.5vw; height: 0.4vh; margin: 0.4vh 0"></article>
+			</section>
+
+			<nav class="" id="menu" style="display: none">
+				<ul>
+					<li><a href="">¿Quiénes somos?</a></li>
+					<li><a href="">Marco Legal</a></li>
+					<li><a href="">Difusión</a></li>
+					<li><a href="">Servicio Fiscalizador de Carrera</a></li>
+					<li><a href="">Enlaces Relacionados</a></li>
+				</ul>
+				<ul>
+					<a href="">Portal de Transparencia</a>
+					<a href="">Denuncias</a>
+					<a href="">Audita</a>
+					<a href="">CAOSF</a>
+				</ul>
+			</nav>
+
+			<a class="boton" href="facebook"></a>
+			<a class="boton" href="twitter"></a>
+			<a class="boton" href="youtube"></a>
+			<a class="boton" href="contacto"></a>
+			
+		</div>
+	</header>
+
+	<script>
+	
+		document.getElementById("burguer").addEventListener("mouseover", function(){
+    document.getElementById("menu").style.display = "block";
+});
+	</script>
+</body>
+</html>
